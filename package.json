@@ -1,0 +1,48 @@
+{
+  "name": "surprise",
+  "title": "Surprise! Best Sellers!",
+  "description": "Get a surprise on your doorstep (or in your kindle) by automatically buying each week's NYTimes top sellers!",
+  "version": "0.1.0",
+  "homepage": "https://github.com/southerd/surprise",
+  "author": {
+    "name": "David Souther",
+    "email": "davidsouther@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/southerd/surprise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/southerd/surprise/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/southerd/surprise/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/surprise",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "start": "node lib/surprise.js"
+  },
+  "dependencies": {
+    "jquery": ">= 1",
+    "superscore": "~0.3.3",
+    "jefri": "~1.0.3",
+    "jefri-server": "~1.0.0",
+    "express": "*",
+    "nconf": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib": "*",
+    "grunt-livescript": "*",
+    "grunt-testacular": "*",
+    "connect": "*"
+  },
+  "keywords": []
+}
