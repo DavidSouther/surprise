@@ -10,5 +10,5 @@ surprise = (JEFRi)->
 
 	new surprise()
 
-angular.module 'surprise'
+angular.module('surprise')
 	.factory 'surprise', ['JEFRi', surprise]

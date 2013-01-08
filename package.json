@@ -32,6 +32,7 @@
   "dependencies": {
     "jquery": ">= 1",
     "superscore": "~0.3.3",
+    "underscore": "*",
     "jefri": "~1.0.3",
     "jefri-server": "~1.0.0",
     "express": "*",
